@@ -17,7 +17,18 @@ class MainActivity : AppCompatActivity() {
 
             // change background color
             txtNumber.setBackgroundResource(R.color.teal_700)
+            val email = "abc"
+            val pass = "123"
 
+            btnGetText.setOnClickListener {
+                val valueText = editEmail.text.toString()
+                // show toast
+                Toast.makeText(
+                    this@MainActivity,
+                    valueText,
+                    Toast.LENGTH_SHORT
+                ).show()
+            }
 
             btnCount.setOnClickListener {
                 number++
