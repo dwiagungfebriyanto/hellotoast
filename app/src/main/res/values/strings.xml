@@ -3,4 +3,6 @@
     <string name="toast">Toast</string>
     <string name="_0">0</string>
     <string name="count">COUNT</string>
+    <string name="username">Username:</string>
+    <string name="email">Email:</string>
 </resources>
